@@ -1,8 +1,6 @@
 :root {
     --cor-primaria: #0284c7;
     /* Azul rio vibrante */
-    /* --cor-secundaria: #e0f2fe; */
-    /* Azul claro para fundos leves */
     --cor-destaque1: #f97316;
     /* Laranja vibrante para botões principais */
     --cor-destaque2: #10b981;
@@ -44,7 +42,7 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 
