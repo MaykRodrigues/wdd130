@@ -1,6 +1,7 @@
 :root {
     --cor-primaria: #0284c7;
     /* Azul rio vibrante */
+    --cor-secundaria: #fff;
     --cor-destaque1: #f97316;
     /* Laranja vibrante para botões principais */
     --cor-destaque2: #10b981;
@@ -42,7 +43,7 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
 }
 
@@ -69,6 +70,9 @@ article {
 
 .hero article {
     position: absolute;
+    top: 400px;
+    background-color: var(--cor-secundaria);
+    opacity: 0.7;
 }
 
 .hero article img {
@@ -78,4 +82,10 @@ article {
 
 footer {
     background-color: var(--cor-destaque2);
+    color: var(--cor-secundaria);
+}
+
+footer img {
+    width: 50px;
+    right: auto;
 }
