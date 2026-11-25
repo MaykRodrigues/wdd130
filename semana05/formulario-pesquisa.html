@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 / Formulario HTML - Pesquisa de Usuario</h1>
+
+    </header>
+    <main>
+        <form action="Formulario de pesquisa">
+            <div class="item-formulario coluna2">
+                <label for="nomecompleto">Nome Completo</label>
+                <input type="text" id="nome-completo" nome="nome-completo" required>
+            </div>
+            <div class="item-formulario coluna2">
+                <label for="endereço de e-mail">E-mail</label>
+                <input type="email" id="emaildousuario" nome="emaildousuario" required>
+            </div>
+            <div class="item-formulario coluna1">
+                <label for="navegador">Qual o seu Navegador Favorito?</label>
+                <select name="navegador" id="navegador">
+                    <option value="Chrome">Chrome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Explorer">Explorer</option>
+                </select>
+            </div>
+            <div class="item-formulario coluna1">
+                <label for="pet">Você tem um bichinho de estimação em casa?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="item-formulario coluna1">
+                <label for="feedback">Liste os lugares em que você morou:</label>
+                <textarea name="feedback" id="feedback" rows="4"
+                  placeholder="São Paulo, Maceio, Brasilia"></textarea>
+            </div>
+            <button type="submit">Enviar Pesquisa</button>
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
