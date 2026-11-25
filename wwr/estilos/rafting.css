@@ -1,10 +1,10 @@
 :root {
-    --cor-primaria: #0284c7;
+    --cor-primaria: #075985;
     /* Azul rio vibrante */
     --cor-secundaria: #fff;
     --cor-destaque1: #914713;
     /* Laranja vibrante para botões principais */
-    --cor-destaque2: #10b981;
+    --cor-destaque2: #047857;
     /* Verde floresta */
     --fonte-body: 'Inter', system-ui, -apple-system, sans-serif;
     --fonte-titulos: 'Montserrat', sans-serif;
