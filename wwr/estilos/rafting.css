@@ -2,7 +2,7 @@
     --cor-primaria: #0284c7;
     /* Azul rio vibrante */
     --cor-secundaria: #fff;
-    --cor-destaque1: #f97316;
+    --cor-destaque1: #914713;
     /* Laranja vibrante para botões principais */
     --cor-destaque2: #10b981;
     /* Verde floresta */
@@ -126,7 +126,7 @@ header nav a {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 16px;
-    background-color: #ddd;
+    background-color: #bfe0e6;
     padding: 16px;
     margin: 16px 0;
 }
@@ -202,8 +202,4 @@ footer img {
     gap: 12px;
     margin: 0;
     padding: 0;
-}
-
-.redes-sociais a {
-    text-decoration: none;
 }
